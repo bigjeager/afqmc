@@ -27,5 +27,14 @@
 
 # Large loss
 - those labels are not as good as well
+- False Postive tends to be bad labels
+- False Negative is affected by chinese typos
+  - idx 140: "接触" in sentence1 (suppose to be "解除") paired with "解冻" in sentence2
+  - idx 127: "商网贷" in sentence2 (suppose to be "网商贷") paired with "网商贷" in sentence1
+  - idx 362: "赞不使用会着利息吗" in sentence2 (suppose to be "暂不使用会有利息吗") paired with "花呗不花用出利息吗" in sentence1 (suppose to be "花呗不花，用出利息吗")
+
+## False Postitive
 <img width="1381" alt="截屏2024-01-28 20 52 21" src="https://github.com/bigjeager/afqmc/assets/60964665/4c54198f-376d-48a4-b988-072cc0568f64">
+
+## False Negative
 <img width="1364" alt="截屏2024-01-28 20 53 37" src="https://github.com/bigjeager/afqmc/assets/60964665/03f0de7d-dc19-485a-a7e7-a946e36da144">
