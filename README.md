@@ -31,7 +31,7 @@
 - False Negative is affected by chinese typos
   - idx 160: "接触" in sentence1 (suppose to be "解除") paired with "解冻" in sentence2
   - change to {"sentence1": "怎么解除冻结花呗", "sentence2": "花呗冻结了还能解冻吗", "label": "1", "idx": 160}
-  - get a score of 0.93496436
+  - get a score of **0.9350** vs **0.0064**
 
 ## False Positive
 <img width="1381" alt="截屏2024-01-28 20 52 21" src="https://github.com/bigjeager/afqmc/assets/60964665/4c54198f-376d-48a4-b988-072cc0568f64">
