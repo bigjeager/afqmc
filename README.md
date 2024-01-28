@@ -24,3 +24,8 @@
 
 <img width="1291" alt="截屏2024-01-28 20 47 17" src="https://github.com/bigjeager/afqmc/assets/60964665/00addcff-a02c-4c97-8274-0e5321b30781">
 <img width="1288" alt="截屏2024-01-28 20 47 29" src="https://github.com/bigjeager/afqmc/assets/60964665/5b0c227b-8e75-4670-b4e6-4a78e0490c01">
+
+# Large loss
+- those labels are not as good as well
+<img width="1381" alt="截屏2024-01-28 20 52 21" src="https://github.com/bigjeager/afqmc/assets/60964665/4c54198f-376d-48a4-b988-072cc0568f64">
+<img width="1364" alt="截屏2024-01-28 20 53 37" src="https://github.com/bigjeager/afqmc/assets/60964665/03f0de7d-dc19-485a-a7e7-a946e36da144">
