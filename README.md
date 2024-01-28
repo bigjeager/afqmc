@@ -30,7 +30,7 @@
 - False Positive tends to be bad labels
 - False Negative is affected by chinese typos
   - idx 160: "接触" in sentence1 (suppose to be "解除") paired with "解冻" in sentence2
-  - change to {"sentence1": "怎么解除冻结花呗", "sentence2": "花呗冻结了还能解冻吗", "label": "1", "idx": 160}
+  - change to {"sentence1": "怎么**解除**(接触)冻结花呗", "sentence2": "花呗冻结了还能解冻吗", "label": "1", "idx": 160}
   - get a score of **0.9350** vs **0.0064**
 
 ## False Positive
