@@ -5,7 +5,7 @@
 - [bert-base-chinese](https://huggingface.co/bert-base-chinese)
 - [CLS] => Linear(hidden_size, 1) => nn.NCELoss()
 
-# HyperParmeter
+# HyperParameter
 - "batch_size": 32,
 - "lr": 1e-4,
 - "weight_decay": 0.01,
